@@ -45,7 +45,15 @@ class ComposerStaticInitf556d5f582326e48b6420f374753f015
     );
 
     public static $classMap = array (
+        'Admin\\Plugin_Name_Admin' => __DIR__ . '/../..' . '/plugin/Admin/Plugin_Name_Admin.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'Frontend\\Plugin_Name_Frontend' => __DIR__ . '/../..' . '/plugin/Frontend/Plugin_Name_Frontend.php',
+        'Includes\\Plugin_Name_Activator' => __DIR__ . '/../..' . '/plugin/Includes/Plugin_Name_Activator.php',
+        'Includes\\Plugin_Name_Core' => __DIR__ . '/../..' . '/plugin/Includes/Plugin_Name_Core.php',
+        'Includes\\Plugin_Name_Deactivator' => __DIR__ . '/../..' . '/plugin/Includes/Plugin_Name_Deactivator.php',
+        'Includes\\Plugin_Name_Loader' => __DIR__ . '/../..' . '/plugin/Includes/Plugin_Name_Loader.php',
+        'Includes\\Plugin_Name_i18n' => __DIR__ . '/../..' . '/plugin/Includes/Plugin_Name_i18n.php',
+        'Plugin\\Plugin_Name' => __DIR__ . '/../..' . '/plugin/Plugin_Name.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

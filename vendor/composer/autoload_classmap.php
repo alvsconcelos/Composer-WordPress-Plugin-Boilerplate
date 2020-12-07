@@ -6,5 +6,13 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Admin\\Plugin_Name_Admin' => $baseDir . '/plugin/Admin/Plugin_Name_Admin.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
+    'Frontend\\Plugin_Name_Frontend' => $baseDir . '/plugin/Frontend/Plugin_Name_Frontend.php',
+    'Includes\\Plugin_Name_Activator' => $baseDir . '/plugin/Includes/Plugin_Name_Activator.php',
+    'Includes\\Plugin_Name_Core' => $baseDir . '/plugin/Includes/Plugin_Name_Core.php',
+    'Includes\\Plugin_Name_Deactivator' => $baseDir . '/plugin/Includes/Plugin_Name_Deactivator.php',
+    'Includes\\Plugin_Name_Loader' => $baseDir . '/plugin/Includes/Plugin_Name_Loader.php',
+    'Includes\\Plugin_Name_i18n' => $baseDir . '/plugin/Includes/Plugin_Name_i18n.php',
+    'Plugin\\Plugin_Name' => $baseDir . '/plugin/Plugin_Name.php',
 );

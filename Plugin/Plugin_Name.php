@@ -4,9 +4,9 @@ namespace Plugin;
 
 use Includes\Plugin_Name_Activator;
 use Includes\Plugin_Name_Deactivator;
-use Includes\Plugin_Name;
+use Includes\Plugin_Name_Core;
 
-class Plugin
+class Plugin_Name
 {
     public function __construct($plugin_file)
     {
@@ -27,7 +27,7 @@ class Plugin
 
     public function run_plugin_name()
     {
-        $plugin = new Plugin_Name();
+        $plugin = new Plugin_Name_Core();
         $plugin->run();
     }
 }

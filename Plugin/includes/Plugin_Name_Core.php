@@ -34,7 +34,7 @@ use Frontend\Plugin_Name_Frontend;
  * @subpackage Plugin_Name/includes
  * @author     Your Name <email@example.com>
  */
-class Plugin_Name
+class Plugin_Name_Core
 {
 
 	/**

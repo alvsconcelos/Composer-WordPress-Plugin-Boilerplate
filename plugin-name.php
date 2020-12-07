@@ -41,5 +41,5 @@ define('PLUGIN_NAME_URL', plugin_dir_url(__FILE__));
 
 require __DIR__ . '/vendor/autoload.php';
 
-use Plugin\Plugin;
-new Plugin(__FILE__);
+use Plugin\Plugin_Name;
+new Plugin_Name(__FILE__);
