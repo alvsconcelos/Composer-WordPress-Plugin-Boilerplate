@@ -1,0 +1,10 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Plugin\\": "plugin/",
+            "Includes\\": "plugin/Includes",
+            "Admin\\": "plugin/Admin",
+            "Frontend\\": "plugin/Frontend"
+        }
+    }
+}
