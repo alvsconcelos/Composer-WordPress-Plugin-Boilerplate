@@ -76,7 +76,7 @@ class Plugin_Name_Admin
 		 * class.
 		 */
 
-		wp_enqueue_style($this->plugin_name, plugin_dir_url(__FILE__) . 'css/plugin-name-admin.css', array(), $this->version, 'all');
+		wp_enqueue_style($this->plugin_name, PLUGIN_NAME_URL . 'assets/admin/css/plugin-name-admin.css', array(), $this->version, 'all');
 	}
 
 	/**
@@ -98,7 +98,7 @@ class Plugin_Name_Admin
 		 * between the defined hooks and the functions defined in this
 		 * class.
 		 */
-
-		wp_enqueue_script($this->plugin_name, plugin_dir_url(__FILE__) . 'js/plugin-name-admin.js', array('jquery'), $this->version, false);
+		
+		wp_enqueue_script($this->plugin_name, PLUGIN_NAME_URL . 'assets/admin/js/plugin-name-admin.js', array('jquery'), $this->version, false);
 	}
 }
