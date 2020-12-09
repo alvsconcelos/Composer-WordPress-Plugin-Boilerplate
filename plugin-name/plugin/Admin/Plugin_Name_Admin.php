@@ -8,8 +8,8 @@ namespace Admin;
  * @link       http://example.com
  * @since      1.0.0
  *
- * @package    Plugin_Name
- * @subpackage Plugin_Name/admin
+ * @package    PluginName
+ * @subpackage PluginName/admin
  */
 
 /**
@@ -18,8 +18,8 @@ namespace Admin;
  * Defines the plugin name, version, and two examples hooks for how to
  * enqueue the admin-specific stylesheet and JavaScript.
  *
- * @package    Plugin_Name
- * @subpackage Plugin_Name/admin
+ * @package    PluginName
+ * @subpackage PluginName/admin
  * @author     Your Name <email@example.com>
  */
 class Plugin_Name_Admin

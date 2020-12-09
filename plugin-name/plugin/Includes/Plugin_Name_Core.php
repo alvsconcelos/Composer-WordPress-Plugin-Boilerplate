@@ -16,8 +16,8 @@ use Frontend\Plugin_Name_Frontend;
  * @link       http://example.com
  * @since      1.0.0
  *
- * @package    Plugin_Name
- * @subpackage Plugin_Name/includes
+ * @package    PluginName
+ * @subpackage PluginName/Includes
  */
 
 /**
@@ -30,8 +30,8 @@ use Frontend\Plugin_Name_Frontend;
  * version of the plugin.
  *
  * @since      1.0.0
- * @package    Plugin_Name
- * @subpackage Plugin_Name/includes
+ * @package    PluginName
+ * @subpackage PluginName/Includes
  * @author     Your Name <email@example.com>
  */
 class Plugin_Name_Core

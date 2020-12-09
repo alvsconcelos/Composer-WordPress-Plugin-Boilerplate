@@ -8,8 +8,8 @@ namespace Frontend;
  * @link       http://example.com
  * @since      1.0.0
  *
- * @package    Plugin_Name
- * @subpackage Plugin_Name/public
+ * @package    PluginName
+ * @subpackage PluginName/Frontend
  */
 
 /**
@@ -18,8 +18,8 @@ namespace Frontend;
  * Defines the plugin name, version, and two examples hooks for how to
  * enqueue the public-facing stylesheet and JavaScript.
  *
- * @package    Plugin_Name
- * @subpackage Plugin_Name/public
+ * @package    PluginName
+ * @subpackage PluginName/Frontend
  * @author     Your Name <email@example.com>
  */
 class Plugin_Name_Frontend
