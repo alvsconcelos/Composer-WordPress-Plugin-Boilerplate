@@ -1,10 +1,10 @@
 {
     "autoload": {
         "psr-4": {
-            "PluginName\\": "plugin-name/",
-            "Includes\\": "plugin-name/Includes",
-            "Admin\\": "plugin-name/Admin",
-            "Frontend\\": "plugin-name/Frontend"
+            "PluginNamePlugin\\": "plugin/",
+            "Includes\\": "plugin/Includes",
+            "Admin\\": "plugin/Admin",
+            "Frontend\\": "plugin/Frontend"
         }
     }
 }

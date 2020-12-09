@@ -1,6 +1,6 @@
 <?php
 
-namespace Plugin;
+namespace PluginNamePlugin;
 
 use Includes\Plugin_Name_Activator;
 use Includes\Plugin_Name_Deactivator;
