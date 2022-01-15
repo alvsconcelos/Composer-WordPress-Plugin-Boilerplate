@@ -1,11 +1,11 @@
 <?php
 
-namespace Includes;
+namespace PluginNamePlugin\Includes;
 
-use Includes\Plugin_Name_Loader;
-use Includes\Plugin_Name_i18n;
-use Admin\Plugin_Name_Admin;
-use Frontend\Plugin_Name_Frontend;
+use PluginNamePlugin\Includes\Plugin_Name_Loader;
+use PluginNamePlugin\Includes\Plugin_Name_i18n;
+use PluginNamePlugin\Admin\Plugin_Name_Admin;
+use PluginNamePlugin\Frontend\Plugin_Name_Frontend;
 
 /**
  * The file that defines the core plugin class

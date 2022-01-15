@@ -1,6 +1,6 @@
 <?php
 
-namespace Admin;
+namespace PluginNamePlugin\Admin;
 
 /**
  * The admin-specific functionality of the plugin.

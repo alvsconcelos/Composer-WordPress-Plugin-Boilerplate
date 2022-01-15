@@ -1,6 +1,6 @@
 <?php
 
-namespace Includes;
+namespace PluginNamePlugin\Includes;
 
 /**
  * Fired during plugin deactivation

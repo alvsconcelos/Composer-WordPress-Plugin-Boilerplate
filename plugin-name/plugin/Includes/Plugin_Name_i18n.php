@@ -1,6 +1,6 @@
 <?php
 
-namespace Includes;
+namespace PluginNamePlugin\Includes;
 
 /**
  * Define the internationalization functionality

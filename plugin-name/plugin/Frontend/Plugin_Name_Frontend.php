@@ -1,6 +1,6 @@
 <?php
 
-namespace Frontend;
+namespace PluginNamePlugin\Frontend;
 
 /**
  * The public-facing functionality of the plugin.

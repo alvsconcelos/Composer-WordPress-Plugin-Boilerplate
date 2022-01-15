@@ -2,9 +2,9 @@
 
 namespace PluginNamePlugin;
 
-use Includes\Plugin_Name_Activator;
-use Includes\Plugin_Name_Deactivator;
-use Includes\Plugin_Name_Core;
+use PluginNamePlugin\Includes\Plugin_Name_Activator;
+use PluginNamePlugin\Includes\Plugin_Name_Deactivator;
+use PluginNamePlugin\Includes\Plugin_Name_Core;
 
 class Plugin_Name
 {

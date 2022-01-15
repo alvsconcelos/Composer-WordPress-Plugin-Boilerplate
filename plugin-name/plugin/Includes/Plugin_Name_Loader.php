@@ -1,6 +1,6 @@
 <?php
 
-namespace Includes;
+namespace PluginNamePlugin\Includes;
 
 /**
  * Register all actions and filters for the plugin
